@@ -7,7 +7,7 @@ import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
 import android.hardware.fingerprint.FingerprintManager.AuthenticationCallback;
 import android.os.CancellationSignal;
-import android.support.v4.app.ActivityCompat;
+import androidx.core.app.ActivityCompat;
 import android.widget.Toast;
 
 public class FingerprintHandler extends AuthenticationCallback {
